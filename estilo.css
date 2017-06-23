@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+html, button{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+html{
+  display: block;
+}
+
+body, p{
+  margin: 0;
+}
+
+body{
+  display: block;
+}
+
+header{
+  height: 400px;
+}
+
+header, section, footer {
+  padding: 20px 20px 70px 20px;
+}
+
+header{
+  background-color: gray;
+  background-image: url(img/topo.png);
+  background-size: cover;
+}
+
+article, aside, footer, header, hgroup, main, nav, section{
+  display: block;
+}
+
+nav{
+  margin-bottom: 50px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
+button{
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: gray;
+}
+
+select{
+  display: block;
+}
+
+.cinza {
+  background-color: #999999;
+  color: #000000;
+
+}
+
+.branca{
+  color: #000000;
+}
+
+.chamada {
+  font-size: 24px
+}
+
+h1, p {
+  font-weight: lighter;
+}
+
+h1 {
+  margin-bottom: auto;
+  font-size: 48px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img {
+  display: block;
+  width: 200px;
+  margin: auto;
+  border: 5px solid #FFF;
+}
+
+.img:hover{
+  border: 5px solid #666;
+}
+
+p{
+  text-align: justify;
+  margin: auto;
+}
+
+
+@media (min-width: 780px){
+ h1 {
+   font-size: 64px;
+ }
+
+ h2 {
+      text-align: right;
+ }
+
+ nav{
+   margin-bottom: 100px;
+ }
+
+ footer{
+   display: flex;
+
+ }
+ section {
+   display: flex;
+ }
+
+ .esquerda{
+   display: block;
+   width: 100%;
+   margin-top: 5;
+   margin-bottom: auto;
+ }
+
+ .direita{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-right: 100px;
+   margin-left: 40px;
+ }
+
+
+ }
