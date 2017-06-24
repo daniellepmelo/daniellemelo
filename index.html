@@ -98,33 +98,27 @@
 </footer>
 <script type="text/javascript">
 	$(document).ready(function(){
-		//$('body').scrollspy({target: ".navbar", offset: 50});   
-
+		//$('body').scrollspy({target: ".navbar", offset: 50});
 		$("a[href^='#']").on('click', function(e) {
-
 			$('#nav').find("li").removeClass('active');
-			$(this).parent("li").addClass("active"); 
+			$(this).parent("li").addClass("active");
 		   // prevent default anchor click behavior
 		   e.preventDefault();
-
 		   // store hash
 		   var hash = this.hash;
 		   if (hash == "#portifolio") {
-				$('#nav-portifolio').parent("li").addClass("active"); 		   	
+				$('#nav-portifolio').parent("li").addClass("active");
 		   }
-
 		   // animate
 		   $('html, body').animate({
 		   	scrollTop: $(hash).offset().top-50
 		   }, 1000, function(){
-
 		       // when done, add hash to url
 		       // (default click behaviour)
 		       window.location.hash = hash;
 		   });
 		});
-	});	
-});
+	});
 </script>
 </body><!-- fim do corpo-->
 </html>
