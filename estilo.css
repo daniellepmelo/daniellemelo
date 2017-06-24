@@ -113,11 +113,11 @@ h3{
   display: block;
   width: 180px;
   margin: auto;
-  border: 5px solid #FFF;
+  border-radius: 5px solid #FFF;
 }
 
 .img:hover{
-  border-radius: 5px solid #666;
+  border: 5px solid #666;
 }
 
 p{
