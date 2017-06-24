@@ -111,9 +111,9 @@ h3{
 
 .img {
   display: block;
-  width: 200px;
+  width: 150px;
   margin: auto;
-  border: 5px solid #FFF;
+  border-radius: : 5px solid #FFF;
 }
 
 .img:hover{
